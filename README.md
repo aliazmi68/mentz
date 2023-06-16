@@ -1,16 +1,8 @@
-# mentz
+This is the test task for Mentz
 
-A new Flutter project.
+The project consist of a single screen with a search bar, a widget for showing the count of results and a list showing the results of all the possible matches found in the response of the API call. 
 
-## Getting Started
+The main architecture used for this application is BLoC architecture which separates the business logic from the presentation widgets and utilizes streams to update the data in the list.
 
-This project is a starting point for a Flutter application.
+The app also consist of an api service which is called inside the bloc to fetch the data which is then updated inside the presentation files using the Bloc builder.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
